@@ -75,6 +75,10 @@ section.secondary {
   margin-bottom: 10px;
 }
 
+.instagram {
+  margin: 30px 0;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/background.jpg");
@@ -256,5 +260,9 @@ footer a {
 
   .card-header img {
     height: 100%;
+  }
+
+  blockquote {
+    margin: 0 auto;
   }
 }
