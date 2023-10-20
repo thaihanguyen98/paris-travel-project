@@ -7,6 +7,7 @@ body {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 20px;
 }
 .container {
   max-width: 1400px;
@@ -74,7 +75,7 @@ header a {
 
 main {
   background-color: white;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 main h2 {
@@ -91,9 +92,10 @@ main h2 {
 main h3 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
   margin: 0;
+  padding-bottom: 20px;
 }
 main p {
   font-style: normal;
@@ -104,10 +106,15 @@ main p {
   opacity: 0.7;
   margin: 0;
 }
+
 .img-responsive {
   max-width: 100%;
-  width: 570px;
   height: auto;
+  display: block;
+}
+
+.paris-image {
+  width: 200px;
 }
 
 footer {
@@ -182,5 +189,7 @@ footer a {
   }
   .img-responsive {
     padding-bottom: 10px;
+    left: 50%;
+    right: 50%;
   }
 }
